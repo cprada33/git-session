@@ -10,7 +10,6 @@
 import { computed } from "vue";
 
 interface Props {
-  orientation?: "horizontal" | "vertical";
   text?: string;
   color?: "gray" | "blue" | "green" | "red";
   size?: "sm" | "md" | "lg";
